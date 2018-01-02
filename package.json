@@ -3,6 +3,9 @@
   "version": "0.5.0",
   "description": "Allows you to connect to discord with your irc client",
   "main": "server.js",
+  "bin": {
+    "discord-ircd": "server.js"    
+  }
   "scripts": {
     "start": "node server.js"
   },
