@@ -1,6 +1,6 @@
 // When false nothing will be logged. 
 // Configuration goes here.
-require('./config.js');
+require('./config/config.js');
 
 if (!configuration.DEBUG) {
     console.log = function() {};
